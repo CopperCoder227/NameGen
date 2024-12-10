@@ -6,7 +6,7 @@ body {
   color: rgb(0, 0, 0);
   text-shadow: 2px 2px 5px #ffffff;
   }
-
+/* change color of button so they are squid colors to samon colors */
 .btn-fancy {
   background: rgb(255, 255, 255);
   background-image: -webkit-linear-gradient(top, #640083, #000000);
