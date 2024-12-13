@@ -72,6 +72,16 @@ function genFullName (){
     const newLastName = genLastName(lastName)
     const suffix = genSuffix(animal)
 
+//Functions to capitilazion words
+    const capitalizedPrefix = capitalize(prefix)
+    const capitalizedFirstName = capitalize(FirstName)
+    const capitalizedMiddleName = capitalize(MiddleName)
+    const capitalizedMiddleName = capitalize(LastName)
+
+    //generate words
+    const fullName = '${capitalizedPrefix}${capitalizedFirstName}${capitalizedMiddleName}${capitalizedMiddleName}'
+
+
 
 
 }
