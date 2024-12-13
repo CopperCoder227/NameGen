@@ -81,6 +81,8 @@ function genFullName (){
     //generate words
     const fullName = '${capitalizedPrefix}${capitalizedFirstName}${capitalizedMiddleName}${capitalizedMiddleName}'
 
+    document.getElementById('result').textContent = fullName
+
 
 
 
