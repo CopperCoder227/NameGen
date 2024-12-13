@@ -7,9 +7,11 @@ function genPrefix (firstName){
         return 'Master'
     }
 }
+
 //Generate First Name of Name
 function genFirstName(firstName){
    const firstLetter = firstName.charAt(0).toLowerCase()
+   //first leter changes the first part of value a-z
    if (firstLetter === 'a'){
     return 'Jeff'
    } else if (firstLetter === 'b'){
@@ -28,6 +30,7 @@ return 'Harry'
 
 //Generate middle name
 function genMiddleName (roadType, favoriteColor){
+    //adds fav color to dropdown thingy
     if (roadType === 'road'){
         return `${favoriteColor}ridge`
     } else if (roadType === 'street') {
@@ -42,6 +45,8 @@ function genMiddleName (roadType, favoriteColor){
 //gen last name
 function genLastName(lastName){
     const lastLetter = lastName.charAt(lastName.length-1).toLowerCase()
+       //first leter changes the first part of value a-z
+
     if (lastLetter === 'a'){
         return 'Shadow'
     } else if (lastLetter === 'e'){
@@ -79,7 +84,7 @@ function genFullName (){
     const capitalizedLastName = toCapitalize(lastName)
 
     //generate words
-    const fullName = `${capitalizedPrefix} ${capitalizedFirstName} ${capitalizedMiddleName} ${capitalizedMiddleName}`
+    const fullName = `${capitalizedPrefix} ${capitalizedFirstName} ${capitalizedMiddleName} ${capitalizedMiddleName} ${suffix}`
 
     document.getElementById('result').textContent = fullName; console.log(fullName)
 }
