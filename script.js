@@ -59,11 +59,11 @@ function genSuffix (favoriteAnimal){
 // Master Function to assemble words
 function genFullName (){
     //define variables from input
-    const firstName = document.getElementById('firstName').Value.trim()
-    const lastName = document.getElementById('lastName').Value.trim()
-    const roadType = document.getElementById('roadType').Value
-    const favoriteColor = document.getElementById('favoriteColor').Value.trim()
-    const animal = document.getElementById('animal').Value.trim()
+    const firstName = document.getElementById('firstName').value.trim();
+    const lastName = document.getElementById('lastName').value.trim();
+    const roadType = document.getElementById('roadType').value;
+    const favoriteColor = document.getElementById('favColor').value.trim();
+    const animal = document.getElementById('favAnimal').value.trim();
 
     //generate each name part w help function
     const prefix = genPrefix(firstName)
@@ -73,23 +73,19 @@ function genFullName (){
     const suffix = genSuffix(animal)
 
 //Functions to capitilazion words
-    const capitalizedPrefix = capitalize(prefix)
-    const capitalizedFirstName = capitalize(FirstName)
-    const capitalizedMiddleName = capitalize(MiddleName)
-    const capitalizedMiddleName = capitalize(LastName)
+    const capitalizedPrefix = toCapitalize(prefix)
+    const capitalizedFirstName = toCapitalize(firstName)
+    const capitalizedMiddleName = toCapitalize(middleName)
+    const capitalizedLastName = toCapitalize(lastName)
 
     //generate words
-    const fullName = '${capitalizedPrefix}${capitalizedFirstName}${capitalizedMiddleName}${capitalizedMiddleName}'
+    const fullName = `${capitalizedPrefix} ${capitalizedFirstName} ${capitalizedMiddleName} ${capitalizedMiddleName}`
 
-    document.getElementById('result').textContent = fullName
-
-
-
-
+    document.getElementById('result').textContent = fullName; console.log(fullName)
 }
 
 //Function Capsular thingy
 function toCapitalize(word)
 {
-    return word.charAt(0). toUpperCase()+ word.slice(1).toLowerCase
+    return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
 }
