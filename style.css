@@ -5,6 +5,7 @@ body {
   text-align: center;
   color: rgb(0, 0, 0);
   text-shadow: 2px 2px 5px #ffffff;
+  font-family: 'font/Splatoon1.otf';
   }
 /* change color of button so they are squid colors to samon colors */
 .btn-fancy {
