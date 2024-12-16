@@ -1,11 +1,14 @@
-
+@font-face {
+  font-family: Splatoon;
+  src: url(font/Splatoon1.otf);
+}
 body {
   background: url(imgs/backdrop.jpg);
   background-size: cover;
   text-align: center;
   color: rgb(0, 0, 0);
   text-shadow: 2px 2px 5px #ffffff;
-  font-family: 'font/Splatoon1.otf';
+  font-family: Splatoon;
   }
 /* change color of button so they are squid colors to samon colors */
 .btn-fancy {

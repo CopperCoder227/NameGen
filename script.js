@@ -23,8 +23,75 @@ return 'Barry'
    else if (firstLetter === 'd'){
 return 'Mary'
    }
+    else if (firstLetter === 'e'){
+return 'Barry'
+    }
+    else if (firstLetter === 'f'){
+return 'Mary'
+    }
+    else if (firstLetter === 'g'){
+return 'Gary'
+    }
+    else if (firstLetter === 'h'){
+return 'Barry'
+    }
+    else if (firstLetter === 'i'){
+return 'Mary'
+    }
+    else if (firstLetter === 'j'){
+return 'Gary'
+    }
+    else if (firstLetter === 'k'){
+return 'Barry'
+    }
+    else if (firstLetter === 'l'){
+return 'Mary'
+    }
+    else if (firstLetter === 'm'){
+return 'Gary'
+    }
+    else if (firstLetter === 'n'){
+return 'Barry'
+    }
+    else if (firstLetter === 'o'){
+return 'Mary'
+    }
+    else if (firstLetter === 'p'){
+return 'Gary'
+    }
+    else if (firstLetter === 'q'){
+return 'Barry'
+    }
+    else if (firstLetter === 'r'){
+return 'Mary'
+    }   
+    else if (firstLetter === 's'){
+return 'Gary'
+    }
+    else if (firstLetter === 't'){
+return 'Barry'
+    }
+    else if (firstLetter === 'u'){
+return 'Mary'
+    }   
+    else if (firstLetter === 'v'){
+return 'Gary'
+    }
+    else if (firstLetter === 'w'){
+return 'Barry'
+    }
+    else if (firstLetter === 'x'){
+return 'Mary'
+    }   
+    else if (firstLetter === 'y'){
+return 'Gary'
+    }
+    else if (firstLetter === 'z'){
+return 'Barry'
+}
+                        
    else {
-return 'Harry'
+return '333x'
    }
 }
 
