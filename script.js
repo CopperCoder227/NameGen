@@ -112,16 +112,89 @@ function genMiddleName (roadType, favoriteColor){
 //gen last name
 function genLastName(lastName){
     const lastLetter = lastName.charAt(lastName.length-1).toLowerCase()
-       //first leter changes the first part of value a-z
-
-    if (lastLetter === 'a'){
-        return 'Shadow'
-    } else if (lastLetter === 'e'){
-        return 'Storm'
-    } else{
-        return 'Blaze'
+        //first leter changes the first part of value a-z
+   if (firstLetter === 'a'){
+    return 'Adventurer'
+       } else if (firstLetter === 'b'){
+    return 'Big Boss'
+       }
+       else if (firstLetter === 'c'){
+    return 'Chosen One'
+       }
+       else if (firstLetter === 'd'){
+    return 'Demon'
+       }
+        else if (firstLetter === 'e'){
+    return 'Entertainer'
+        }
+        else if (firstLetter === 'f'){
+    return 'Fish'
+        }
+        else if (firstLetter === 'g'){
+    return 'Globe-Trotter'
+        }
+        else if (firstLetter === 'h'){
+    return 'Hunter'
+        }
+        else if (firstLetter === 'i'){
+    return 'Inkantation'
+        }
+        else if (firstLetter === 'j'){
+    return 'Jokester'
+        }
+        else if (firstLetter === 'k'){
+    return 'Knight'
+        }
+        else if (firstLetter === 'l'){
+    return 'Lawyer'
+        }
+        else if (firstLetter === 'm'){
+    return 'Mastermind'
+        }
+        else if (firstLetter === 'n'){
+    return 'Nomad'
+        }
+        else if (firstLetter === 'o'){
+    return 'One-Hit Wonder'
+        }
+        else if (firstLetter === 'p'){
+    return 'Paradox'
+        }
+        else if (firstLetter === 'q'){
+    return 'Quartet'
+        }
+        else if (firstLetter === 'r'){
+    return 'Ranker'
+        }   
+        else if (firstLetter === 's'){
+    return 'Salmon'
+        }
+        else if (firstLetter === 't'){
+    return 'Traveler'
+        }
+        else if (firstLetter === 'u'){
+    return 'Ultimate Weapon'
+        }   
+        else if (firstLetter === 'v'){
+    return 'Victor'
+        }
+        else if (firstLetter === 'w'){
+    return 'Warden'
+        }
+        else if (firstLetter === 'x'){
+    return '???'
+        }   
+        else if (firstLetter === 'y'){
+    return 'Youngster'
+        }
+        else if (firstLetter === 'z'){
+    return 'Zipcaster User'
     }
-}
+                            
+       else {
+    return '.96 Gal User'
+       }
+    }
 
 //last suffix
 function genSuffix (favoriteAnimal){
@@ -146,7 +219,7 @@ function genFullName (){
 
 //Functions to capitilazion words
     const capitalizedPrefix = toCapitalize(prefix)
-    const capitalizedFirstName = toCapitalize(firstName)
+    const capitalizedFirstName = toCapitalize(newFirstName)
     const capitalizedMiddleName = toCapitalize(middleName)
     const capitalizedLastName = toCapitalize(lastName)
 
