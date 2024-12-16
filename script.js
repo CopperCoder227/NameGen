@@ -111,83 +111,84 @@ function genMiddleName (roadType, favoriteColor){
 
 //gen last name
 function genLastName(lastName){
-    const lastLetter = lastName.charAt(lastName.length-1).toLowerCase()
-        //first leter changes the first part of value a-z
-   if (firstLetter === 'a'){
+    const lastLetter = lastName.charAt(0).toLowerCase()
+    console.log(lastName)
+        //first letter changes the first part of value a-z
+   if (lastLetter === 'a'){
     return 'Adventurer'
-       } else if (firstLetter === 'b'){
+       } else if (lastLetter === 'b'){
     return 'Big Boss'
        }
-       else if (firstLetter === 'c'){
+       else if (lastLetter === 'c'){
     return 'Chosen One'
        }
-       else if (firstLetter === 'd'){
+       else if (lastLetter === 'd'){
     return 'Demon'
        }
-        else if (firstLetter === 'e'){
+        else if (lastLetter === 'e'){
     return 'Entertainer'
         }
-        else if (firstLetter === 'f'){
+        else if (lastLetter === 'f'){
     return 'Fish'
         }
-        else if (firstLetter === 'g'){
+        else if (lastLetter === 'g'){
     return 'Globe-Trotter'
         }
-        else if (firstLetter === 'h'){
+        else if (lastLetter === 'h'){
     return 'Hunter'
         }
-        else if (firstLetter === 'i'){
+        else if (lastLetter === 'i'){
     return 'Inkantation'
         }
-        else if (firstLetter === 'j'){
+        else if (lastLetter === 'j'){
     return 'Jokester'
         }
-        else if (firstLetter === 'k'){
+        else if (lastLetter === 'k'){
     return 'Knight'
         }
-        else if (firstLetter === 'l'){
+        else if (lastLetter === 'l'){
     return 'Lawyer'
         }
-        else if (firstLetter === 'm'){
+        else if (lastLetter === 'm'){
     return 'Mastermind'
         }
-        else if (firstLetter === 'n'){
+        else if (lastLetter === 'n'){
     return 'Nomad'
         }
-        else if (firstLetter === 'o'){
+        else if (lastLetter === 'o'){
     return 'One-Hit Wonder'
         }
-        else if (firstLetter === 'p'){
+        else if (lastLetter === 'p'){
     return 'Paradox'
         }
-        else if (firstLetter === 'q'){
+        else if (lastLetter === 'q'){
     return 'Quartet'
         }
-        else if (firstLetter === 'r'){
+        else if (lastLetter === 'r'){
     return 'Ranker'
         }   
-        else if (firstLetter === 's'){
+        else if (lastLetter === 's'){
     return 'Salmon'
         }
-        else if (firstLetter === 't'){
+        else if (lastLetter === 't'){
     return 'Traveler'
         }
-        else if (firstLetter === 'u'){
+        else if (lastLetter === 'u'){
     return 'Ultimate Weapon'
         }   
-        else if (firstLetter === 'v'){
+        else if (lastLetter === 'v'){
     return 'Victor'
         }
-        else if (firstLetter === 'w'){
+        else if (lastLetter === 'w'){
     return 'Warden'
         }
-        else if (firstLetter === 'x'){
+        else if (lastLetter === 'x'){
     return '???'
         }   
-        else if (firstLetter === 'y'){
+        else if (lastLetter === 'y'){
     return 'Youngster'
         }
-        else if (firstLetter === 'z'){
+        else if (lastLetter === 'z'){
     return 'Zipcaster User'
     }
                             
@@ -206,6 +207,7 @@ function genFullName (){
     //define variables from input
     const firstName = document.getElementById('firstName').value.trim();
     const lastName = document.getElementById('lastName').value.trim();
+    console.log(lastName)
     const roadType = document.getElementById('roadType').value;
     const favoriteColor = document.getElementById('favColor').value.trim();
     const animal = document.getElementById('favAnimal').value.trim();
@@ -221,10 +223,10 @@ function genFullName (){
     const capitalizedPrefix = toCapitalize(prefix)
     const capitalizedFirstName = toCapitalize(newFirstName)
     const capitalizedMiddleName = toCapitalize(middleName)
-    const capitalizedLastName = toCapitalize(lastName)
+    const capitalizedLastName = toCapitalize(newLastName)
 
     //generate words
-    const fullName = `${capitalizedPrefix} ${capitalizedFirstName} ${capitalizedMiddleName} ${capitalizedMiddleName} ${suffix}`
+    const fullName = `${capitalizedPrefix} ${capitalizedFirstName}${capitalizedMiddleName} ${capitalizedLastName}  ${suffix}`
 
     document.getElementById('result').textContent = fullName; console.log(fullName)
 }
