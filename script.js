@@ -13,81 +13,81 @@ function genFirstName(firstName){
    const firstLetter = firstName.charAt(0).toLowerCase()
    //first leter changes the first part of value a-z
    if (firstLetter === 'a'){
-    return 'Jeff'
+return 'Aged'
    } else if (firstLetter === 'b'){
-return 'Gary'
+return 'Bourgeois'
    }
    else if (firstLetter === 'c'){
-return 'Barry'
+return 'Calamari'
    }
    else if (firstLetter === 'd'){
-return 'Mary'
+return 'Dapper'
    }
     else if (firstLetter === 'e'){
-return 'Barry'
+return 'Enthusiastic'
     }
     else if (firstLetter === 'f'){
-return 'Mary'
+return 'Fierce'
     }
     else if (firstLetter === 'g'){
-return 'Gary'
+return 'Ghastly'
     }
     else if (firstLetter === 'h'){
-return 'Barry'
+return 'Hard-Workin'
     }
     else if (firstLetter === 'i'){
-return 'Mary'
+return 'Iced'
     }
     else if (firstLetter === 'j'){
-return 'Gary'
+return 'Jumbo'
     }
     else if (firstLetter === 'k'){
-return 'Barry'
+return 'Keen-and-Nimble'
     }
     else if (firstLetter === 'l'){
-return 'Mary'
+return 'Leaping'
     }
     else if (firstLetter === 'm'){
-return 'Gary'
+return 'Mesmerizing'
     }
     else if (firstLetter === 'n'){
-return 'Barry'
+return 'Not-So-Fresh'
     }
     else if (firstLetter === 'o'){
-return 'Mary'
+return 'Optimistic'
     }
     else if (firstLetter === 'p'){
-return 'Gary'
+return 'Phoenix-Like'
     }
     else if (firstLetter === 'q'){
-return 'Barry'
+return 'Quiet'
     }
     else if (firstLetter === 'r'){
-return 'Mary'
+return 'Rare'
     }   
     else if (firstLetter === 's'){
-return 'Gary'
+return 'Scorching'
     }
     else if (firstLetter === 't'){
-return 'Barry'
+return 'Tender'
     }
     else if (firstLetter === 'u'){
-return 'Mary'
+return 'Uncommon'
     }   
     else if (firstLetter === 'v'){
-return 'Gary'
+return 'Virtual'
     }
     else if (firstLetter === 'w'){
-return 'Barry'
+return 'Wandering'
     }
     else if (firstLetter === 'x'){
-return 'Mary'
+return 'X Battle'
     }   
     else if (firstLetter === 'y'){
-return 'Gary'
+return 'Young'
     }
     else if (firstLetter === 'z'){
-return 'Barry'
+return 'Zesty'
 }
                         
    else {
