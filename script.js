@@ -100,42 +100,42 @@ function genMiddleName (roadType, favoriteColor){
     //adds fav color to dropdown thingy
     favoriteColor.toLowerCase()
     if (roadType === 'Chum'){
-        return `the ${favoriteColor} Chum`
+        return `${favoriteColor} Chum`
     } else if (roadType === 'Smallfry') {
-        return `the ${favoriteColor} Smallfry`
+        return `${favoriteColor} Smallfry`
     } else if (roadType === 'Cohock') {
-        return `the ${favoriteColor} Cohock`
+        return `${favoriteColor} Cohock`
     } else if (roadType === 'Snatcher') {
-        return `the ${favoriteColor} Snatcher`
+        return `${favoriteColor} Snatcher`
 
     } else if (roadType === 'Boss' && favoriteColor.charAt(0) == "g") {
-        return `the Golden Goldie`
+        return `Golden Goldie`
     } else if (roadType === 'Boss' && favoriteColor.charAt(0) == "h") {
-        return `the Hazelnut Steelhead`
+        return `Hazelnut Steelhead`
     } else if (roadType === 'Boss' && favoriteColor.charAt(0) == "e") {
-        return `The Electric Blue Steel Eel`
+        return `Electric Blue Steel Eel`
     } else if (roadType === 'Boss' && favoriteColor.charAt(0) == "a") {
-        return `The Amber Scrapper`
+        return `Amber Scrapper`
     } else if (roadType === 'Boss' && favoriteColor.charAt(0) == "m") {
-        return `The Metallic Stinger`
+        return `Metallic Stinger`
     } else if (roadType === 'Boss' && favoriteColor.charAt(0) == "s") {
-        return `The Silver Maws`
+        return `Silver Maws`
     } else if (roadType === 'Boss' && favoriteColor.charAt(0) == "c") {
-        return `The Clear Drizzler`
+        return `Clear Drizzler`
     } else if (roadType === 'Boss' && favoriteColor.charAt(0) == "p") {
-        return `The pink Flyfish`
+        return `pink Flyfish`
     } else if (roadType === 'Boss' && favoriteColor.charAt(0) == "o") {
-        return `The orange Fish Stick`
+        return `orange Fish Stick`
     } else if (roadType === 'Boss' && favoriteColor.charAt(0) == "b") {
-        return `The Banana Flipper-Flopper`
+        return `Banana Flipper-Flopper`
     } else if (roadType === 'Boss' && favoriteColor.charAt(0) == "c") {
-        return `The Crimson Slammin' Lid`
+        return `Crimson Slammin' Lid`
     } else if (roadType === 'Boss' && favoriteColor.charAt(0) == "d") {
-        return `The Dandelion Big Shot`
+        return `Dandelion Big Shot`
     } else if (roadType === 'Boss' && favoriteColor.charAt(0) == "r") {
-        return `The Red Mudmouth` 
+        return `Red Mudmouth` 
     } else{
-        return `The ${favoriteColor} rock`
+        return `${favoriteColor} rock`
     }
 }
 
@@ -238,12 +238,12 @@ function genSuffix (favoriteAnimal){
     } else if (favoriteAnimal === 'SS') {
         return `of the Salmonid Smokeyard`
     } else if (favoriteAnimal === 'RA') {
-    return `of the Ruins of Ark Polaris`
+    return `of the Ruins of Ark Polaris`}
 }
 
 
 // Master Function to assemble words
-function genFullName (){
+function genFullName(){
     //define variables from input
     const firstName = document.getElementById('firstName').value.trim();
     const lastName = document.getElementById('lastName').value.trim();
@@ -272,7 +272,6 @@ function genFullName (){
 }
 
 //Function Capsular thingy
-function toCapitalize(word)
-{
+function toCapitalize(word){
     return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
 }
