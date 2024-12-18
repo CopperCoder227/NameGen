@@ -135,7 +135,7 @@ function genMiddleName (roadType, favoriteColor){
     } else if (roadType === 'Boss' && favoriteColor.charAt(0) == "r") {
         return `The Red Mudmouth` 
     } else{
-        return `${favoriteColor}rock`
+        return `The ${favoriteColor} rock`
     }
 }
 
@@ -229,8 +229,18 @@ function genLastName(lastName){
 
 //last suffix
 function genSuffix (favoriteAnimal){
-    return`of the ${favoriteAnimal}`
+    if (favoriteAnimal === 'SG'){
+        return `of the Spawning Grounds`
+    } else if (favoriteAnimal === 'MB') {
+        return `of the Marooner's Bay`
+    } else if (favoriteAnimal === 'LO') {
+        return `of the Lost Outpost`
+    } else if (favoriteAnimal === 'SS') {
+        return `of the Salmonid Smokeyard`
+    } else if (favoriteAnimal === 'RA') {
+    return `of the Ruins of Ark Polaris`
 }
+
 
 // Master Function to assemble words
 function genFullName (){
