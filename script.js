@@ -226,7 +226,7 @@ function genFullName (){
     const capitalizedLastName = toCapitalize(newLastName)
 
     //generate words
-    const fullName = `${capitalizedPrefix} ${capitalizedFirstName}${capitalizedMiddleName} ${capitalizedLastName}  ${suffix}`
+    const fullName = `${capitalizedPrefix} ${capitalizedFirstName} ${capitalizedLastName} ${capitalizedMiddleName} ${suffix}`
 
     document.getElementById('result').textContent = fullName; console.log(fullName)
 }
