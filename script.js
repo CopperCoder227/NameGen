@@ -108,7 +108,7 @@ function genMiddleName (roadType, favoriteColor){
     } else if (roadType === 'Snatcher') {
         return `${favoriteColor} Snatcher`
 
-    } else if (roadType === 'Boss' && favoriteColor.charAt(0) == "g") {
+    } else if (roadType === 'Boss' && favoriteColor.charAt(0) == "g" ||favoriteColor.charAt(0) == "f" ) {
         return `Golden Goldie`
     } else if (roadType === 'Boss' && favoriteColor.charAt(0) == "h") {
         return `Hazelnut Steelhead`
