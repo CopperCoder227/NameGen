@@ -4,7 +4,7 @@ function genPrefix (firstName){
         return 'The Great'
     }
     else {
-        return 'Master'
+        return 'The'
     }
 }
 
@@ -98,12 +98,42 @@ return '333x'
 //Generate middle name
 function genMiddleName (roadType, favoriteColor){
     //adds fav color to dropdown thingy
-    if (roadType === 'road'){
-        return `${favoriteColor}ridge`
-    } else if (roadType === 'street') {
-        return `${favoriteColor}valley`
-    } else if (roadType === 'ave') {
-        return `${favoriteColor}woods`
+    favoriteColor.toLowerCase()
+    if (roadType === 'Chum'){
+        return `the ${favoriteColor} Chum`
+    } else if (roadType === 'Smallfry') {
+        return `the ${favoriteColor} Smallfry`
+    } else if (roadType === 'Cohock') {
+        return `the ${favoriteColor} Cohock`
+    } else if (roadType === 'Snatcher') {
+        return `the ${favoriteColor} Snatcher`
+
+    } else if (roadType === 'Boss' && favoriteColor.charAt(0) == "g") {
+        return `the Golden Goldie`
+    } else if (roadType === 'Boss' && favoriteColor.charAt(0) == "h") {
+        return `the Hazelnut Steelhead`
+    } else if (roadType === 'Boss' && favoriteColor.charAt(0) == "e") {
+        return `The Electric Blue Steel Eel`
+    } else if (roadType === 'Boss' && favoriteColor.charAt(0) == "a") {
+        return `The Amber Scrapper`
+    } else if (roadType === 'Boss' && favoriteColor.charAt(0) == "m") {
+        return `The Metallic Stinger`
+    } else if (roadType === 'Boss' && favoriteColor.charAt(0) == "s") {
+        return `The Silver Maws`
+    } else if (roadType === 'Boss' && favoriteColor.charAt(0) == "c") {
+        return `The Clear Drizzler`
+    } else if (roadType === 'Boss' && favoriteColor.charAt(0) == "p") {
+        return `The pink Flyfish`
+    } else if (roadType === 'Boss' && favoriteColor.charAt(0) == "o") {
+        return `The orange Fish Stick`
+    } else if (roadType === 'Boss' && favoriteColor.charAt(0) == "b") {
+        return `The Banana Flipper-Flopper`
+    } else if (roadType === 'Boss' && favoriteColor.charAt(0) == "c") {
+        return `The Crimson Slammin' Lid`
+    } else if (roadType === 'Boss' && favoriteColor.charAt(0) == "d") {
+        return `The Dandelion Big Shot`
+    } else if (roadType === 'Boss' && favoriteColor.charAt(0) == "r") {
+        return `The Red Mudmouth` 
     } else{
         return `${favoriteColor}rock`
     }
