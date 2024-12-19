@@ -9,16 +9,16 @@ function getRandomNumber(min, max) {
   ];
   const images = [
     "imgs/img/ba-g.png", "imgs/img/ba.png", "imgs/img/br-g.png", "imgs/img/br-s.png", "imgs/img/br.png",
-    "image6.jpg", "image7.jpg", "image8.jpg", "image9.jpg", "image10.jpg",
-    "image11.jpg", "image12.jpg", "image13.jpg", "image14.jpg", "image15.jpg",
-    "image16.jpg", "image17.jpg", "image18.jpg", "image19.jpg", "image20.jpg",
-    "image21.jpg", "image22.jpg", "image23.jpg", "image24.jpg", "image25.jpg",
-    "image26.jpg", "image27.jpg", "image28.jpg", "image29.jpg", "image30.jpg",
-    "image31.jpg", "image32.jpg", "image33.jpg", "image34.jpg", "image35.jpg",
-    "image36.jpg", "image37.jpg", "image38.jpg", "image39.jpg", "image40.jpg",
-    "image41.jpg", "image42.jpg", "image43.jpg", "image44.jpg", "image45.jpg",
-    "image46.jpg", "image47.jpg", "image48.jpg", "image49.jpg", "image50.jpg",
-    "image51.jpg", "image52.jpg", "image53.jpg", "image54.jpg", "image55.jpg"
+    "imgs/img/bs-g.png", "imgs/img/bs.png", "imgs/img/cho-g.png", "imgs/img/cho.png", "imgs/img/DJ.png",
+    "imgs/img/driz-g.png", "imgs/img/driz.png", "imgs/img/ew-b.png", "imgs/img/ew-g.png", "imgs/img/ew-s.png",
+    "imgs/img/ff-g.png", "imgs/img/ff.png", "imgs/img/fly-g.png", "imgs/img/fly.png", "imgs/img/fs-g.png",
+    "imgs/img/fs.png", "imgs/img/gf-g.png", "imgs/img/gf.png", "imgs/img/griz-b.png", "imgs/img/griz-g.png",
+    "imgs/img/griz-s.png", "imgs/img/grizz.png", "imgs/img/horo-g.png", "imgs/img/horo.png", "imgs/img/jj-g.png",
+    "imgs/img/jj.png", "imgs/img/maw-g.png", "imgs/img/maw.png", "imgs/img/max.png", "imgs/img/mb-g.png",
+    "imgs/img/mb.png", "imgs/img/mega-g.png", "imgs/img/mega.png", "imgs/img/sa-s.png", "imgs/img/sas-g.png",
+    "imgs/img/sc-g.png", "imgs/img/sc.png", "imgs/img/se-g.png", "imgs/img/se.png", "imgs/img/sg-g.png",
+    "imgs/img/sg-g.png", "imgs/img/sh-g.png", "imgs/img/sh.png", "imgs/img/sl-g.png", "imgs/img/sl.png",
+    "imgs/img/ss-g.png", "imgs/img/ss.png", "imgs/img/st-g.png", "imgs/img/st.png", "imgs/img/tri-g.png"
 ];
   
 //Generating prefix of name
