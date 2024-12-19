@@ -2,6 +2,7 @@
 function getRandomNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
   }
+  //need to add the new guys from other email (chok etc)
   const images = [
     "imgs/img/ba-g.png", "imgs/img/ba.png", "imgs/img/br-g.png", "imgs/img/br-s.png", "imgs/img/br.png",
     "imgs/img/bs-g.png", "imgs/img/bs.png", "imgs/img/cho-g.png", "imgs/img/cho.png", "imgs/img/DJ.png",
