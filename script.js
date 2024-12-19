@@ -2,8 +2,24 @@
 function getRandomNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
   }
-  let randomNumber = getRandomNumber(1, 55);
-  <span class="diff2">${randomNumber}</span>
+  let randomNumbers = [
+    getRandomNumber(0, 54),
+    getRandomNumber(0, 54),
+    getRandomNumber(0, 54)
+  ];
+  const images = [
+    "imgs/img/ba-g.png", "imgs/img/ba.png", "imgs/img/br-g.png", "imgs/img/br-s.png", "imgs/img/br.png",
+    "image6.jpg", "image7.jpg", "image8.jpg", "image9.jpg", "image10.jpg",
+    "image11.jpg", "image12.jpg", "image13.jpg", "image14.jpg", "image15.jpg",
+    "image16.jpg", "image17.jpg", "image18.jpg", "image19.jpg", "image20.jpg",
+    "image21.jpg", "image22.jpg", "image23.jpg", "image24.jpg", "image25.jpg",
+    "image26.jpg", "image27.jpg", "image28.jpg", "image29.jpg", "image30.jpg",
+    "image31.jpg", "image32.jpg", "image33.jpg", "image34.jpg", "image35.jpg",
+    "image36.jpg", "image37.jpg", "image38.jpg", "image39.jpg", "image40.jpg",
+    "image41.jpg", "image42.jpg", "image43.jpg", "image44.jpg", "image45.jpg",
+    "image46.jpg", "image47.jpg", "image48.jpg", "image49.jpg", "image50.jpg",
+    "image51.jpg", "image52.jpg", "image53.jpg", "image54.jpg", "image55.jpg"
+];
   
 //Generating prefix of name
 function genPrefix (firstName){
@@ -274,10 +290,14 @@ function genFullName(){
 
     //generate words
     const fullName = `${capitalizedPrefix} ${capitalizedFirstName} ${capitalizedLastName} ${capitalizedMiddleName} ${suffix}`
+    
+    document.getElementById("response-img-1").src = images[randomNumbers[0]]
+    document.getElementById("response-img-2").src = images[randomNumbers[1]]
+    document.getElementById("response-img-3").src = images[randomNumbers[2]]
+
 
     document.getElementById('result').textContent = fullName; console.log(fullName)
 }
-
 //Function Capsular thingy
 function toCapitalize(word){
     return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
