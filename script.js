@@ -2,11 +2,6 @@
 function getRandomNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
   }
-  let randomNumbers = [
-    getRandomNumber(0, 54),
-    getRandomNumber(0, 54),
-    getRandomNumber(0, 54)
-  ];
   const images = [
     "imgs/img/ba-g.png", "imgs/img/ba.png", "imgs/img/br-g.png", "imgs/img/br-s.png", "imgs/img/br.png",
     "imgs/img/bs-g.png", "imgs/img/bs.png", "imgs/img/cho-g.png", "imgs/img/cho.png", "imgs/img/DJ.png",
@@ -287,7 +282,11 @@ function genFullName(){
     const capitalizedFirstName = toCapitalize(newFirstName)
     const capitalizedMiddleName = toCapitalize(middleName)
     const capitalizedLastName = toCapitalize(newLastName)
-
+    let randomNumbers = [
+        getRandomNumber(0, 54),
+        getRandomNumber(0, 54),
+        getRandomNumber(0, 54)
+      ];
     //generate words
     const fullName = `${capitalizedPrefix} ${capitalizedFirstName} ${capitalizedLastName} ${capitalizedMiddleName} ${suffix}`
     
