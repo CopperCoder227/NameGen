@@ -13,7 +13,7 @@ function getRandomNumber(min, max) {
     "imgs/img/mb.png", "imgs/img/mega-g.png", "imgs/img/mega.png", "imgs/img/sa-s.png", "imgs/img/sas-g.png",
     "imgs/img/sc-g.png", "imgs/img/sc.png", "imgs/img/se-g.png", "imgs/img/se.png", "imgs/img/sg-g.png",
     "imgs/img/sg-g.png", "imgs/img/sh-g.png", "imgs/img/sh.png", "imgs/img/sl-g.png", "imgs/img/sl.png",
-    "imgs/img/ss-g.png", "imgs/img/ss.png", "imgs/img/st-g.png", "imgs/img/st.png", "imgs/img/tri-g.png"
+    "imgs/img/ss-g.png", "imgs/img/ss.png", "imgs/img/st-g.png", "imgs/img/st.png", "imgs/img/tri.png"
 ];
   
 //Generating prefix of name
